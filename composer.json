@@ -1,0 +1,19 @@
+{
+    "name": "wp28/wp28-sku-manager",
+    "type": "project",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "WP28",
+            "email": "wp28dev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WP28\\SKUMANAGER\\": "src"
+        },
+        "classmap": [
+            "lib"
+        ]
+    }
+}

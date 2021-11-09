@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type=checkbox]{
+    --chkbg: var(--p);
+    --chkfg: var(--pc);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    --tw-border-opacity: 1;
+    --tw-border-opacity: 0.2;
+    border-color: hsla(var(--bc)/var(--tw-border-opacity,1));
+    border-width: 1px;
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: var(--rounded-btn,.5rem);
+}
+input[type=checkbox]:checked::before {
+    content: none;
+}
+.stat{
+    width: auto;
+}
